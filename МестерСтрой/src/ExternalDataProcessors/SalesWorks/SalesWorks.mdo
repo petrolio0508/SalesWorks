@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bfea847-77ec-4710-a3fe-35bdbd714a95">
+  <producedTypes>
+    <objectType typeId="10d7a76b-870f-40ce-97d7-bc88e4a0eb2d" valueTypeId="3cbe4275-aea8-42ed-baef-d8447c8b6188"/>
+  </producedTypes>
+  <name>SalesWorks</name>
+  <synonym>
+    <key>ru</key>
+    <value>Sales works</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="7a9f1553-6153-42e4-b8c7-47ff4b636d6b"/>
+  <defaultForm>ExternalDataProcessor.SalesWorks.Form.Форма</defaultForm>
+  <forms uuid="faffd98d-4960-4062-aa6e-6224c1fd517f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
