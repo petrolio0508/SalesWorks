@@ -635,6 +635,14 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <choiceParameters>
+                <name>Отбор.Типовое</name>
+                <value xsi:type="form:FormChoiceListDesTimeValue">
+                  <value xsi:type="core:BooleanValue">
+                    <value>true</value>
+                  </value>
+                </value>
+              </choiceParameters>
             </extInfo>
           </items>
           <items xsi:type="form:Decoration">
@@ -1290,7 +1298,7 @@
     </title>
     <id>12</id>
     <valueType>
-      <types>CatalogRef.ВидыЦен</types>
+      <types>CatalogRef.СоглашенияСКлиентами</types>
     </valueType>
     <view>
       <common>true</common>
